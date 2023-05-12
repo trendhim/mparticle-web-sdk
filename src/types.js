@@ -17,7 +17,8 @@ var MessageType = {
 // trigger an immediate upload.
 var TriggerUploadType = {
     [MessageType.Commerce]: 1,
-    [MessageType.UserAttributeChange]: 1,
+    // TODO: temporary solution to avoid race conditions when defining many user attributes
+    // [MessageType.UserAttributeChange]: 1,
     [MessageType.UserIdentityChange]: 1,
 };
 

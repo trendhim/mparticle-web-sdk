@@ -236,7 +236,7 @@ var mParticle = (function () {
 
     // Dictionary that contains MessageTypes that will
     // trigger an immediate upload.
-    var TriggerUploadType = (_TriggerUploadType = {}, _defineProperty(_TriggerUploadType, MessageType$1.Commerce, 1), _defineProperty(_TriggerUploadType, MessageType$1.UserAttributeChange, 1), _defineProperty(_TriggerUploadType, MessageType$1.UserIdentityChange, 1), _TriggerUploadType);
+    var TriggerUploadType = (_TriggerUploadType = {}, _defineProperty(_TriggerUploadType, MessageType$1.Commerce, 1), _defineProperty(_TriggerUploadType, MessageType$1.UserIdentityChange, 1), _TriggerUploadType);
     var EventType = {
       Unknown: 0,
       Navigation: 1,
